@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NEXT_TELEMETRY_DISABLED = "1"
+  NEXT_OUTPUT_EXPORT = "true"
+  NODE_VERSION = "18"
