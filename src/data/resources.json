@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "type": "hotline",
+    "name": "National Suicide Prevention Lifeline",
+    "phone": "988",
+    "url": "https://988lifeline.org/",
+    "verified": true
+  },
+  {
+    "id": 2,
+    "type": "therapy",
+    "name": "Psychology Today Therapist Finder",
+    "url": "https://www.psychologytoday.com/us/therapists",
+    "verified": true
+  },
+  {
+    "id": 3,
+    "type": "peer support",
+    "name": "NAMI (National Alliance on Mental Illness)",
+    "url": "https://www.nami.org/Home",
+    "verified": true
+  },
+  {
+    "id": 4,
+    "type": "emergency",
+    "name": "Crisis Text Line",
+    "text": "Text HOME to 741741",
+    "url": "https://www.crisistextline.org/",
+    "verified": true
+  }
+]
