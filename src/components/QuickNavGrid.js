@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import SoraImage from './SoraImage';
-
 const navItems = [
   { title: 'About PTSD', path: '/about-ptsd', image: '/images/quicknav-1x1-A.jpg' },
   { title: 'Healing Tools', path: '/healing-tools', image: '/images/quicknav-1x1-B.jpg' },
@@ -20,9 +18,9 @@ const QuickNavGrid = () => {
             <Link 
               key={item.title} 
               to={item.path} 
-              className="group relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+              className="group relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl aspect-square"
             >
-              <SoraImage src={item.image} alt={item.title} aspect="1:1" />
+              <img src={item.image} alt={item.title} className="w-full h-full object-cover object-center" />
               <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center p-2">
                 <h3 className="text-white text-lg font-bold text-center">{item.title}</h3>
               </div>
