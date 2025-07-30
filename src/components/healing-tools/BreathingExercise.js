@@ -28,7 +28,7 @@ const BreathingExercise = () => {
     const startTimeout = setTimeout(runCycle, 2000);
 
     return () => clearTimeout(startTimeout);
-  }, [cycle]);
+  }, []);
 
   return (
     <div className="relative min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4 overflow-hidden">
